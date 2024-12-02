@@ -1,0 +1,61 @@
+h1{
+    font-size:50px;
+    background-color: #A7CB54;
+
+}
+
+h2{
+    font-size:25px;
+    background-color: #54c1cb;
+
+}
+
+p {
+    font-size:18px;
+    line-height:18px;
+}
+
+
+#Family {
+    background-color: #ffffff;
+    color: rgb(48, 38, 38);
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    left: -100%; /* Initially off-screen to the left */
+    opacity: 0; /* Initially invisible */
+    transition: left 1s ease-out, opacity 1s ease-out;
+}
+
+#Mom {
+    background-color: #ffffff;
+    color: black;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    left: -100%; /* Initially off-screen to the left */
+    opacity: 0; /* Initially invisible */
+    transition: left 1s ease-out, opacity 1s ease-out;
+}
+
+#Dad {
+    background-color: #ffffff;
+    color: black;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    left: -100%; /* Initially off-screen to the left */
+    opacity: 0; /* Initially invisible */
+    transition: left 1s ease-out, opacity 1s ease-out;
+}
+
+#Brother {
+    background-color: #ffffff;
+    color: black;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    left: -100%; /* Initially off-screen to the left */
+    opacity: 0; /* Initially invisible */
+    transition: left 1s ease-out, opacity 1s ease-out;
+}
