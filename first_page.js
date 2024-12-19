@@ -1,28 +1,38 @@
 $(document).ready(function() {
-    // Trigger the swipe in animation when the document is ready
     $("#Family").animate({
-        left: "0", // Move div to its original position (0)
-        opacity: 1  // Fade in
-    }, 1000); // Duration of 1 second
+        left: "0",
+        opacity: 1  
+    }, 1500); 
 });
+
 $(document).ready(function() {
-    // Trigger the swipe in animation when the document is ready
+    
     $("#Mom").animate({
-        left: "0", // Move div to its original position (0)
-        opacity: 1  // Fade in
-    }, 1000); // Duration of 1 second
+        left: "0",
+        opacity: 1  
+    }, 1000); 
 });
+
 $(document).ready(function() {
-    // Trigger the swipe in animation when the document is ready
+    
     $("#Dad").animate({
-        left: "0", // Move div to its original position (0)
-        opacity: 1  // Fade in
-    }, 1000); // Duration of 1 second
+        left: "0", 
+        opacity: 1 
+    }, 1000); 
 });
 $(document).ready(function() {
-    // Trigger the swipe in animation when the document is ready
     $("#Brother").animate({
-        left: "0", // Move div to its original position (0)
-        opacity: 1  // Fade in
-    }, 1000); // Duration of 1 second
+        left: "0", 
+        opacity: 1 
+    }, 1000); 
 });
+$(document).ready(function() {
+    $(".link").on("mouseenter", function() {
+        $(this).css("color", "orange");
+    });
+
+    $(".link").on("mouseleave", function() {
+        $(this).css("color", "blue");
+    });
+});
+

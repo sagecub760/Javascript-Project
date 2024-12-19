@@ -22,8 +22,8 @@ p {
     padding: 20px;
     width: 100%;
     position: relative;
-    left: -100%; /* Initially off-screen to the left */
-    opacity: 0; /* Initially invisible */
+    left: -100%; 
+    opacity: 0;
     transition: left 1s ease-out, opacity 1s ease-out;
 }
 
@@ -33,10 +33,11 @@ p {
     padding: 20px;
     width: 100%;
     position: relative;
-    left: -100%; /* Initially off-screen to the left */
-    opacity: 0; /* Initially invisible */
+    left: -100%; 
+    opacity: 0; 
     transition: left 1s ease-out, opacity 1s ease-out;
 }
+
 
 #Dad {
     background-color: #ffffff;
@@ -44,8 +45,8 @@ p {
     padding: 20px;
     width: 100%;
     position: relative;
-    left: -100%; /* Initially off-screen to the left */
-    opacity: 0; /* Initially invisible */
+    left: -100%; 
+    opacity: 0;
     transition: left 1s ease-out, opacity 1s ease-out;
 }
 
@@ -55,7 +56,12 @@ p {
     padding: 20px;
     width: 100%;
     position: relative;
-    left: -100%; /* Initially off-screen to the left */
-    opacity: 0; /* Initially invisible */
+    left: -100%; 
+    opacity: 0; 
     transition: left 1s ease-out, opacity 1s ease-out;
 }
+.link {
+    color: blue;
+}
+
+

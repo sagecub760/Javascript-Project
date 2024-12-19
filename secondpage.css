@@ -1,0 +1,41 @@
+
+h1{
+    font-size:50px;
+    background-color: #A7CB54;
+
+}
+
+h2{
+    font-size:25px;
+    background-color: #54c1cb;
+
+}
+
+p {
+    font-size:18px;
+    line-height:18px;
+}
+
+
+#about_me {
+    background-color: #ffffff;
+    color: rgb(48, 38, 38);
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    opacity: 0; 
+}
+.link {
+    color: blue;
+}
+#me {
+
+    padding: 20px;
+    width: 25%;
+    position: relative;
+    right: -100%; 
+    opacity: 0; 
+    transition: left 1s ease-out, opacity 1s ease-out;
+    size: 18px;
+}
+

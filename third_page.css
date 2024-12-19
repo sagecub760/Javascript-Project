@@ -1,0 +1,38 @@
+.link {
+    color: blue;
+}
+#resume {
+    color: black;
+    font-size: 35px;
+}
+.cafe {
+    font-size: 24px; 
+    font-weight: bold; 
+}
+.ymsl {
+    font-size: 24px; 
+    font-weight: bold; 
+}
+.MMA {
+    font-size: 24px; 
+    font-weight: bold; 
+}
+.tide {
+    font-size: 24px; 
+    font-weight: bold; 
+}
+/*Used ChatGPT for part of the following code */
+
+li {
+    opacity: 0; /* Initially hidden */
+    transform: translateX(-100%); /* Start off-screen to the left */
+    transition: transform 1s ease, opacity 1s ease; /* Smooth transition */
+    margin-bottom: 10px; /* Optional: space between items */
+}
+
+/* When the 'in-view' class is added, slide the element in */
+.in-view {
+    transform: translateX(0); /* Move to normal position */
+    opacity: 1; /* Make visible */
+}
+
